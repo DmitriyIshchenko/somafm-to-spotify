@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "SomaFM to Spotify",
+  "description": "Save your favorite songs to Spotify",
+  "version": "1.0.0",
+  "content_scripts": [
+    {
+      "matches": ["https://somafm.com/player/*"],
+      "js": ["content-script.js"],
+      "css": ["content-script.css"]
+    }
+  ]
+}
